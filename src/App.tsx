@@ -18,7 +18,7 @@ function App() {
         const randomIndex = Math.floor(Math.random() * iconKeys.length);
         setCurrentIcon(iconKeys[randomIndex]);
         setIsChanging(false);
-      }, 1000);
+      }, 3000);
     }
   };
   const animate = () => {
