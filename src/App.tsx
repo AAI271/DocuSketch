@@ -7,7 +7,7 @@ import Skeleton from './components/skeleton';
 
 function App() {
   const iconKeys = Object.keys(Icons) as (keyof typeof Icons)[]; // Get all the keys of the imported icons
-  const [currentIcon, setCurrentIcon] = useState<keyof typeof Icons>(iconKeys[2]);
+  const [currentIcon, setCurrentIcon] = useState<keyof typeof Icons>(iconKeys[0]);
   const [isChanging, setIsChanging] = useState(false);
   const [animation, setAnimation] = useState(false);
 
