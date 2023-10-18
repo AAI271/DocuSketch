@@ -21,6 +21,7 @@ function App() {
       }, 3000);
     }
   };
+  
   const animate = () => {
     if (!animation) {
       setAnimation(true);
